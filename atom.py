@@ -4,7 +4,6 @@ def IsEmptyLoL(S):
 def IsAtom2(S):
     return type(S) != list
 
-#YG DIPAKE ISATOMNYA
 def IsAtom(S):
     return isinstance(S,list) and len(S) == 1 and not isinstance(S[0],list)
 
